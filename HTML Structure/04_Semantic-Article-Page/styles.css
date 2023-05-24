@@ -1,0 +1,27 @@
+section article h2
+{
+    color: #5c6e91;
+}
+
+section article p
+{
+    
+    font-style: italic;
+    color: #5c6e91;
+}
+
+body
+{
+    width: 700px;
+    background: #e4e978;
+}
+
+article
+{
+    padding: 5px 15px;
+    width: 700px;
+    border: 1px solid #4c7658;
+    margin: 15px 10px;
+    background: #f2f4c0;
+}
+
