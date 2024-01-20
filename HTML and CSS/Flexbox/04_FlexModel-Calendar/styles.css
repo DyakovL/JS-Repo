@@ -1,0 +1,27 @@
+:root
+{
+    box-sizing: border-box;
+}
+
+div
+{
+    display: flex;
+    align-items: center;
+    max-width: 65vw;
+}
+
+section
+{
+    display: flex;
+    align-items: center;
+}
+
+span
+{
+    border: 1px solid black;
+}
+
+.notes
+{
+    flex-direction: column;
+}

@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+#img-container {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+
+#container {
+  border: 1px solid gray;
+  border-radius: 13px 13px;
+  overflow: clip;
+  margin: 0px 0px;
+  width: 50%;
+  height: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: row;
+}
+
+#data {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  padding: 20px;
+}
+
+#text {
+  align-self: center;
+  margin: 6px 0px;
+  padding: 0px 0px;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#buttons button:hover {
+  background-color: #86d862;
+}
+
+#buttons button {
+  border: 1px solid black;
+  margin: 10px 34px;
+  padding: 7px 7px;
+  border-radius: 9px 9px;
+  text-decoration: none;
+}
+
+#genderAndYears {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#genders {
+  margin: 0px 20px;
+  resize: horizontal;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+#years {
+  width: 100%;
+  margin: 0px 20px;
+  resize: none;
+}
+
+#weight {
+  width: 86%;
+  height: 19px;
+  margin: 5px 20px;
+  resize: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#height-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#height-feet {
+  width: 50%;
+  height: 19px;
+  margin: 0px 20px;
+  resize: none;
+}
+
+#height-inches {
+  width: 50%;
+  height: 19px;
+  margin: 0px 20px;
+  resize: none;
+}
+
+#calc-btn {
+  border-radius: 20px 20px;
+  margin-top: 25px;
+  padding: 5px 5px;
+  color: white;
+  border: 1px solid transparent;
+  background-color: #05a2d3;
+  font-style: b;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}

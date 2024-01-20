@@ -1,0 +1,22 @@
+main
+{
+    display: grid;
+    place-items: center;
+    width: 700px;
+    height: 500px;
+    margin: 60px 60px;
+}
+
+.new
+{
+    position: relative;
+    top: -200px ;
+    right: -150px;
+}
+
+.cup
+{
+    position: relative;
+    top: 260px;
+    left: -13px;
+}

@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(238, 238, 238);
+    display: grid;
+    grid-template-areas: "header"
+    "main";
+}
+
+a
+{
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+    display: flex;
+}
+
+header > nav > ul
+{
+    display: inline-block;
+    list-style: none;
+}
+
+img
+{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+body > header
+{
+    border-bottom: 2px solid black;
+    grid-area: header;
+}
+
+header p
+{
+    display: block;
+}
+
+article
+{
+    grid-area: main;
+}
+
+aside
+{
+    float: right;
+}
+
+blockquote
+{
+    font-family: Georgia, serif;
+}

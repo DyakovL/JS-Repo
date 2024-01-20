@@ -1,0 +1,124 @@
+@media (max-width: 600px) {
+  /* Adjustments for body and header */
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .site-main {
+    margin: 0;
+  }
+
+  .site-header {
+    align-items: center;
+  }
+
+  .site-header-logo {
+    margin-left: 15px;
+  }
+
+  .site-navigation ul {
+    display: none;
+    align-items: center;
+    padding: 1rem 0;
+  }
+
+  /* Adjustments for entry-header */
+  .entry-header {
+    padding: 5rem 1rem;
+    background-position: top center;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .entry-header-description {
+    position: static;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .entry-header-title {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+
+  .entry-header-title::first-letter {
+    font-size: 5rem;
+  }
+
+  /* Adjustments for site-logos */
+  .site-logos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Display in 2 columns */
+    grid-template-rows: repeat(3, 1fr); /* Display in 3 rows */
+    gap: 1rem; /* Add gap between logos */
+    min-width: 540px;
+  }
+
+  .site-logo {
+    font-size: 1rem;
+    width: 100%; /* Adjust logo width to fill the column */
+    margin: 0; /* Remove margin to reduce spacing */
+  }
+
+  .site-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Additional adjustments for other sections */
+  .site-information-text {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .entry-subtitle {
+    text-align: center;
+  }
+
+  .entry-title {
+    text-align: center;
+  }
+
+  .entry-description {
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .site-information {
+    justify-content: center;
+  }
+
+  .site-information-image {
+    display: none;
+  }
+
+  .site-form {
+    padding: 2rem;
+    margin-top: 0;
+  }
+
+  .site-form form {
+    max-width: 100%;
+  }
+
+  .site-blog-container {
+    padding: 2rem;
+    margin-top: 0m;
+  }
+
+  .site-post {
+    flex: 0 0 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  .site-post img {
+    max-width: 100%;
+  }
+}

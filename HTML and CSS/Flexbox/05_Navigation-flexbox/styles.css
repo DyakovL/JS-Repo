@@ -1,0 +1,16 @@
+header
+{
+    display: flex;
+    border-bottom: 2px solid rgb(0,0,0);
+}
+
+ul  
+{
+    display: flex;
+    list-style: none ;
+}
+
+a
+{
+    color: rgb(0, 153, 0);
+}

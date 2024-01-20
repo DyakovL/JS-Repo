@@ -1,0 +1,15 @@
+ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+body
+{
+    display: flex;
+}
+
+img
+{
+    border: 3px solid black;
+}

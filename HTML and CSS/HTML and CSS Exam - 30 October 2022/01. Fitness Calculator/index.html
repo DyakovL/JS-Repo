@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fitness Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="img-container">
+        <img src="image/calculator.png" alt="Fitness calculator" />
+      </div>
+      <div id="data">
+        <h3 id="text">FITNESS CALCULATOR</h3>
+        <div id="buttons">
+          <button><a href="#">Standart units (US)</a></button
+          ><button><a href="#">Metric units</a></button>
+        </div>
+        <h5 id="text">Gender</h5>
+        <div id="genderAndYears">
+          <select name="genders" id="genders">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+          </select>
+          <textarea
+            name="year"
+            id="years"
+            placeholder="years..."
+            rows="1"
+            maxlength="3"
+          ></textarea>
+        </div>
+        <h5 id="text">Weight</h5>
+        <textarea
+          name="weight"
+          id="weight"
+          cols="1"
+          maxlength="4"
+          placeholder="Pounds..."
+        ></textarea>
+        <h5 id="text">Height</h5>
+        <div id="height-div">
+          <textarea
+            id="height-feet"
+            cols="1"
+            maxlength="1"
+            placeholder="Feet..."
+          ></textarea>
+          <textarea
+            id="height-inches"
+            cols="1"
+            maxlength="2"
+            placeholder="Inches..."
+          ></textarea>
+        </div>
+        <button id="calc-btn">Calculate</button>
+      </div>
+    </div>
+  </body>
+</html>

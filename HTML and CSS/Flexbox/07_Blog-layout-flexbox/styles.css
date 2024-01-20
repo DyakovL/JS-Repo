@@ -1,0 +1,42 @@
+.page
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head
+{
+    border-bottom: 2px solid black;
+}
+
+a
+{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+aside
+{
+    float: right;
+    margin: 0px 40px;
+    padding: 20px 40px;
+} 
+
+body
+{
+    background-color: rgb(238, 238, 238);
+}
+
+img
+{
+    border: 2px solid black;
+    padding: 5px 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote
+{
+    border-left: 3px solid grey;
+    float: left;
+    font-family: Georgia, serif;
+}

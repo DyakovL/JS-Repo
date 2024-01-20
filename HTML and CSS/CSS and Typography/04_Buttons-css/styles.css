@@ -1,0 +1,41 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+
+body
+{
+    font-family: "Font Awesome";
+    cursor: pointer;
+    outline: none;
+}
+
+body > button
+{
+    font: "FontAwesome"; 
+    cursor: pointer;
+    background-color: white;
+    font-size: larger;
+    padding: 6px 15px;
+    outline: none;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+button.hover :hover
+{
+    cursor: pointer;
+    outline: none;
+    background: rgb(51, 51, 51);
+}
+
+a{
+    cursor: pointer;
+    outline: none;
+    font: "FontAwesome"; 
+    font-size: larger;
+    border: 2px solid transparent;
+    padding: 6px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    border: 2px solid rgb(51, 51, 51);
+}

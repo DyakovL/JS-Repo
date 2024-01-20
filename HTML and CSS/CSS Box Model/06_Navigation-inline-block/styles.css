@@ -1,0 +1,19 @@
+nav
+{
+    display: inline-block;
+}
+
+:root
+{
+    font-family: Helvetica, sans-serif;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+
+li
+{
+    display: inline-block;
+}
